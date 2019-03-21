@@ -8,7 +8,7 @@ nor have I presented someone else's work as my own.
 A simple C++ program
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
