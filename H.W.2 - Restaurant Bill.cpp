@@ -8,8 +8,8 @@ nor have I presented someone else's work as my own.
 Restaurant Bill
 */
 
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
