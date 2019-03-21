@@ -15,11 +15,11 @@ using namespace std;
 int main()
 {
 	const double MEALCOST = 88.67,
-				 TAX = 0.0675,
-				 TIP = 0.2;
+		     TAX = 0.0675,
+		     TIP = 0.2;
 
 	double total_tax = 0,
-		   total_tip = 0;
+	       total_tip = 0;
 
 	total_tax = MEALCOST * TAX;
 	total_tip = (total_tax + MEALCOST) * TIP;
