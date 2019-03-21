@@ -40,16 +40,16 @@ int main()
 	getline(cin, petname);
 
 	cout << "\n\n\nThere once was a person named " << name
-		<< " who lived in " << city
-		<< ". At the age of " << age
-		<< ", " << name
-		<< " went to college at " << college
-		<< ". " << name
-		<< " graduated and went to work as a " << profession
-		<< ". Then, " << name
-		<< " adopted a(n) " << animal
-		<< " named " << petname
-		<< ". They both lived happily ever after!\n";
+	    << " who lived in " << city
+	    << ". At the age of " << age
+	    << ", " << name
+	    << " went to college at " << college
+	    << ". " << name
+	    << " graduated and went to work as a " << profession
+	    << ". Then, " << name
+	    << " adopted a(n) " << animal
+	    << " named " << petname
+	    << ". They both lived happily ever after!\n";
 
 	system("pause");
 	return 0;
