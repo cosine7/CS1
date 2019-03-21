@@ -5,8 +5,8 @@ nor have I presented someone else's work as my own.
 
 
 
- A simple C++ program
- */
+A simple C++ program
+*/
 
 #include<iostream>
 using namespace std;
