@@ -8,8 +8,8 @@ nor have I presented someone else's work as my own.
 Word Game
 */
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 using namespace std;
 
 int main()
@@ -52,6 +52,5 @@ int main()
 		<< ". They both lived happily ever after!\n";
 
 	system("pause");
-
 	return 0;
 }
