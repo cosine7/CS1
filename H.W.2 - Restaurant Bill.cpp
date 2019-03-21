@@ -25,10 +25,10 @@ int main()
 	total_tip = (total_tax + MEALCOST) * TIP;
 
 	cout << setprecision(2) << fixed
-		<< "Meal Cost:  $" << MEALCOST << endl
-		<< "Tax Amount: $" << total_tax << endl
-		<< "Tip Amount: $" << total_tip << endl
-		<< "Total Bill: $" << MEALCOST + total_tax + total_tip << endl;
+	    << "Meal Cost:  $" << MEALCOST << endl
+            << "Tax Amount: $" << total_tax << endl
+	    << "Tip Amount: $" << total_tip << endl
+	    << "Total Bill: $" << MEALCOST + total_tax + total_tip << endl;
 
 	system("pause");
 	return 0;
