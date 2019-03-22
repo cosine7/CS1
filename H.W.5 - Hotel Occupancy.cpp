@@ -33,7 +33,7 @@ int main()
 
 	for (i = 1; i <= floor; i++)
 	{
-		// There are no floor 13 in any America hospitals.
+		// There are no floor 13 in America hospitals.
 		if (i <= 12)
 		{
 			cout << "\nHow many rooms are there in the floor " << i << " ? ";
