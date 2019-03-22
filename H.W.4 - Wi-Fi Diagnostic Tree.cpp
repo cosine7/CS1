@@ -8,8 +8,8 @@ nor have I presented someone else's work as my own.
 Wi-Fi Diagnostic Tree
 */
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 using namespace std;
 
 void mistyping(string&);
