@@ -19,28 +19,28 @@ int main()
 	string answer;
 
 	cout << "Reboot the computer and try to connect.\n"
-		<< "Did that fix the problem? ";
+	    << "Did that fix the problem? ";
 	cin >> answer;
 	mistyping(answer);
 
 	if (answer == "no")
 	{
 		cout << "Reboot the router and try to connect.\n"
-			<< "Did that fix the problem? ";
+		    << "Did that fix the problem? ";
 		cin >> answer;
 		mistyping(answer);
 	}
 	if (answer == "no")
 	{
 		cout << "Make sure the cables between the router and modem are plugged in firmly.\n"
-			<< "Did that fix the problem? ";
+		    << "Did that fix the problem? ";
 		cin >> answer;
 		mistyping(answer);
 	}
 	if (answer == "no")
 	{
 		cout << "Move the router to a new location.\n"
-			<< "Did that fix the problem? ";
+		    << "Did that fix the problem? ";
 		cin >> answer;
 		mistyping(answer);
 	}
@@ -58,7 +58,7 @@ void mistyping(string &ans)
 	while (ans != "yes" && ans != "no")
 	{
 		cout << "\nYou can only enter \"yes\" or \"no\".\n"
-			<< "Please enter again: ";
+		    << "Please enter again: ";
 		cin >> ans;
 	}
 
