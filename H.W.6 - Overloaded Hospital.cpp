@@ -22,28 +22,28 @@ double charge(double, double, double, int, double, double, double);
 int main()
 {
 	int choice,
-		days;
+	    days;
 
 	double DailyRate,
-		   medication,
-		   service,
-		   er,
-		   er_medication,
-		   er_service;
+	       medication,
+	       service,
+	       er,
+	       er_medication,
+	       er_service;
 
 	const int IN = 1,
-			  OUT = 2,
-		      ER = 3;
+	 	  OUT = 2,
+	          ER = 3;
 
 	cout << "what kind of patient are you?\n"
-		 << "1. Inpatient      2. Outpatient      3. Emergency room inpatient\n"
-		 << "Please enter the number: ";
+	    << "1. Inpatient      2. Outpatient      3. Emergency room inpatient\n"
+	    << "Please enter the number: ";
 	cin >> choice;
 
 	while ((choice < IN) || (choice > ER))
 	{
 		cout << "you can only enter \"1\" or \"2\" or \"3\".\n"
-			 << "Please enter again: ";
+	            << "Please enter again: ";
 		cin >> choice;
 	}
 
@@ -123,7 +123,7 @@ void mistyping(int& data)
 	while (data < 1)
 	{
 		cout << "Do not accept a number less than 1!\n"
-			 << "Please enter again: ";
+		    << "Please enter again: ";
 		cin >> data;
 	}
 
@@ -135,7 +135,7 @@ void mistyping(double& data)
 	while (data < 0)
 	{
 		cout << "Do not accept negative numbers for any data!\n"
-			 << "Please enter again: ";
+		    << "Please enter again: ";
 		cin >> data;
 	}
 
