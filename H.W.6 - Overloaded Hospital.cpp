@@ -34,12 +34,14 @@ int main()
 	const int IN = 1,
 	 	  OUT = 2,
 	          ER = 3;
-
+	
+        // Menu.
 	cout << "what kind of patient are you?\n"
 	    << "1. Inpatient      2. Outpatient      3. Emergency room inpatient\n"
 	    << "Please enter the number: ";
 	cin >> choice;
 
+	// Check if user entered correctly.
 	while ((choice < IN) || (choice > ER))
 	{
 		cout << "you can only enter \"1\" or \"2\" or \"3\".\n"
@@ -126,8 +128,6 @@ void mistyping(int& data)
 		    << "Please enter again: ";
 		cin >> data;
 	}
-
-	return;
 }
 
 void mistyping(double& data)
@@ -138,8 +138,6 @@ void mistyping(double& data)
 		    << "Please enter again: ";
 		cin >> data;
 	}
-
-	return;
 }
 
 double charge(int day, double rate, double med, double ser)
