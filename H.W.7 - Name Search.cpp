@@ -21,14 +21,14 @@ int main()
 	ifstream input;
 
 	const int BOY = 1,
-		      GIRL = 2,
-		      QUIT = 3,
+		  GIRL = 2,
+		  QUIT = 3,
 	          SIZE = 200;
 
 	string choice,
-		   name,
-		   boy[SIZE],
-		   girl[SIZE];
+	       name,
+	       boy[SIZE],
+	       girl[SIZE];
 
 	int choice2;
 
